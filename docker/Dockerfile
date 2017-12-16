@@ -134,6 +134,7 @@ RUN rm -rf ${WORKING_DIR} && ln -s /work  ${WORKING_DIR}
 ## --- copy files last, so not to bust the cache ---
 
 COPY run-bigdl.sh  $HOME/
+COPY jupyter_notebook_config.py ~/.jupyter/
 
 USER root
 RUN mv /usr/local/bin/start-notebook.sh   /usr/local/bin/start-notebook-old.sh
