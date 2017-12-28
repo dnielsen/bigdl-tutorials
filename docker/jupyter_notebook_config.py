@@ -5,7 +5,7 @@ import requests
 # Configurable configuration
 #------------------------------------------------------------------------------
 
-c.NotebookApp.token = requests.get("http://169.254.169.254/latest/meta-data/ami-id").text
+c.NotebookApp.token = requests.get("http://169.254.169.254/latest/meta-data/instance-id").text
 c.NotebookApp.ip = 'localhost'
 
 #------------------------------------------------------------------------------
