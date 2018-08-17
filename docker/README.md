@@ -11,10 +11,10 @@
 
     #   to do a different build file
     # do not forget this DOT (.) at the end
-    $   docker build  -f  Dockerfile-v3   .
+    $   docker build  -f  Dockerfile   .
 
     # to add a tag
-    $   docker build  -f  Dockerfile-v3  -t bigdl/bigdl   .
+    $   docker build  -f  Dockerfile  -t bigdl/bigdl   .
 ```
 
 To force a build provide  `--no-cache ` option
