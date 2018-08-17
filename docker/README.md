@@ -1,6 +1,7 @@
 # How to use the Docker image
 
 ## Building
+Fork this repo
 
 ```bash
     $   cd  bigdl-tutorials/docker
